@@ -1,0 +1,10 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+a=int(input())
+b=int(input())
+c=int(input())
+
+total_revenue=a*b
+total_cost=a*c
+fixed_price=100
+profit=total_revenue-total_cost-fixed_price
+print(profit)
