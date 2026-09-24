@@ -1,0 +1,7 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+l=int(input())
+b=int(input())
+a=l*b
+c=(l+b)*2
+print(f"The required length is {c} m")
+print(f"The required area of carpet is {a} sqm")
