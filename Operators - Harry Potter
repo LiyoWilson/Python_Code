@@ -1,0 +1,10 @@
+n = int(input())
+
+n = abs(n)
+
+first = n // 1000
+last = n % 10
+
+result = first + last
+
+print(result)
